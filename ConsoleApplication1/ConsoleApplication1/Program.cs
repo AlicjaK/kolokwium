@@ -13,24 +13,12 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            
-        }
-
-
-
-        public static int PairofCars(int p, int q)
-        {
-            int x = 0;
-            int y = 0;
-
-
-
-            if (p == 0 && q == 1) x = p; y = q;
-
-            
-
-            return PairofCars(x,y);
-          
+            List<Cars> carslist = new List<Cars>();
+            carslist[0] = 0;
+            carslist[1] = 1;
+            carslist[2] = 0;
+            carslist[3] = 1;
+            carslist[4] = 1;
         }
 
         public static int TravelingEast()
@@ -51,7 +39,18 @@ namespace ConsoleApplication1
             if (numerOfPairs == 1000000) return -1;
             else return numerOfPairs;
         }
+
+        public static bool IsPair()
+        {
+            throw new NotImplementedException();
+        }
     }
 
-
+    internal class Cars
+    {
+        public static implicit operator Cars(int v)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

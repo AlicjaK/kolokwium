@@ -13,24 +13,7 @@ namespace ConsoleApplication1.Tests
     {
        
 
-        [TestMethod()]
-        public void CarsTravelingTest()
-        {
-
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void PairofCarsTest()
-        {
-            int e = 0;
-            int w = 1;
-
-            //  Program PairoFCars = new PairofCars
-            // Assert.AreEqual(Program.PairofCars(x, y), e);
-            Assert.Fail();
-        }
-
+       
         [TestMethod()]
         public void TravelingEastTest()
         {
@@ -49,11 +32,19 @@ namespace ConsoleApplication1.Tests
         }
 
         [TestMethod()]
-        public void PairsPassingCarsTest()
+        public void PairsPassingTest()
         {
             int x = -1;
             Assert.AreEqual(Program.PairsPassingCars(),x);
            
+        }
+       
+
+        [TestMethod()]
+        public void IsPairTest()
+        {
+            Assert.IsTrue(Program.IsPair());
+
         }
     }
 }
