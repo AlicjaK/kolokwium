@@ -8,6 +8,9 @@ namespace ConsoleApplication1
 {
     public class Program
     {
+
+        private static int numerOfPairs = 0;
+
         static void Main(string[] args)
         {
             
@@ -33,6 +36,19 @@ namespace ConsoleApplication1
         public static int TravelingEast()
         {
             return 0;
+        }
+
+        public static int TravelingWest()
+        {
+            return 1;
+        }
+
+        public static int PairsPassingCars()
+        {
+            numerOfPairs++;
+
+            if (numerOfPairs == 1000000) return -1;
+            else return numerOfPairs;
         }
     }
 

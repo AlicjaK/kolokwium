@@ -11,8 +11,7 @@ namespace ConsoleApplication1.Tests
     [TestClass()]
     public class ProgramTests
     {
-        private int x;
-        private int y;
+       
 
         [TestMethod()]
         public void CarsTravelingTest()
@@ -39,6 +38,23 @@ namespace ConsoleApplication1.Tests
 
             Assert.AreEqual(Program.TravelingEast(), east);
 
+        }
+
+        [TestMethod()]
+        public void TravelingWestTest()
+        {
+            int west = 1;
+
+            Assert.AreEqual(Program.TravelingWest(), west);
+        }
+
+        [TestMethod()]
+        public void PairsPassingCarsTest()
+        {
+            int x = -1;
+
+            Assert.AreEqual(Program.PairsPassingCars(),x);
+           
         }
     }
 }
