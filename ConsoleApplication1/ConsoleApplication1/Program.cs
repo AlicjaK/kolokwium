@@ -47,6 +47,7 @@ namespace ConsoleApplication1
         {
             numerOfPairs++;
 
+
             if (numerOfPairs == 1000000) return -1;
             else return numerOfPairs;
         }
