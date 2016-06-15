@@ -52,6 +52,7 @@ namespace ConsoleApplication1
         public static implicit operator Cars(int v)
         {
             //throw new NotImplementedException();
+            return 0;
         }
     }
 }

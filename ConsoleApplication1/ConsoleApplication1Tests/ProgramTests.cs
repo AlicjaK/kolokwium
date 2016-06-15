@@ -43,8 +43,10 @@ namespace ConsoleApplication1.Tests
         [TestMethod()]
         public void IsPairTest()
         {
-            int x = 0;
+            int x = 0; 
+            // int x = 1;
             int y = 1;
+            // int y = 0;
             Assert.IsTrue(Program.IsPair(x,y));
 
         }
