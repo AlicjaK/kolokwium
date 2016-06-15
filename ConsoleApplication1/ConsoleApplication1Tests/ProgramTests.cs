@@ -52,7 +52,6 @@ namespace ConsoleApplication1.Tests
         public void PairsPassingCarsTest()
         {
             int x = -1;
-
             Assert.AreEqual(Program.PairsPassingCars(),x);
            
         }
