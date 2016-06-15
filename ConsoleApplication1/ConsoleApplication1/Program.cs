@@ -13,12 +13,12 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            List<Cars> carslist = new List<Cars>();
-            carslist[0] = 0;
-            carslist[1] = 1;
-            carslist[2] = 0;
-            carslist[3] = 1;
-            carslist[4] = 1;
+            //List<Cars> carslist = new List<Cars>();
+            //carslist[0] = 0;
+            //carslist[1] = 1;
+            //carslist[2] = 0;
+            //carslist[3] = 1;
+            //carslist[4] = 1;
         }
 
         public static int TravelingEast()
@@ -47,12 +47,12 @@ namespace ConsoleApplication1
         }
     }
 
-    internal class Cars
-    {
-        public static implicit operator Cars(int v)
-        {
-            //throw new NotImplementedException();
-            return 0;
-        }
-    }
+    //internal class Cars
+    //{
+    //    public static implicit operator Cars(int v)
+    //    {
+    //        //throw new NotImplementedException();
+           
+    //    }
+    //}
 }
