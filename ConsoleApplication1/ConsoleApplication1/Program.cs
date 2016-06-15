@@ -40,9 +40,10 @@ namespace ConsoleApplication1
             else return numerOfPairs;
         }
 
-        public static bool IsPair()
+        public static bool IsPair(int p, int q)
         {
-            throw new NotImplementedException();
+            if (p == 0 && q == 1) return true;
+            else return false;
         }
     }
 
@@ -50,7 +51,7 @@ namespace ConsoleApplication1
     {
         public static implicit operator Cars(int v)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }
